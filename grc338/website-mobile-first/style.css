@@ -90,7 +90,8 @@ p {
 	
 p.description {
 	grid-column: 1/2;
-	margin: 2em;
+	grid-row: 1/2;
+	margin: 0em;
 	}
 	
 p.price {
@@ -99,12 +100,13 @@ p.price {
 	color:rgb(255,0,0);
 	text-align: right;
 	margin: 0em;
+	
 	}
 	
 nav ul li {
 	text-transform: uppercase;
 	font-weight: 900;
-	margin-bottom: 3em;
+	margin-bottom: 2em;
 	}
 	
 nav ul li a {
